@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "bouncer"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = "Kick people out of your github projects"
+    gem.description = "Bouncer makes it easy to remove a collabroator's access to all of your github projects, perfect for when someone leaves your company or team and you don't want them to have access to your projects anymore."
     gem.email = "andrewnez@gmail.com"
     gem.homepage = "http://github.com/andrew/bouncer"
     gem.authors = ["Andrew Nesbitt"]

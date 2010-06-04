@@ -1,6 +1,6 @@
 = bouncer
 
-Description goes here.
+Bouncer makes it easy to remove a collabroator's access to all of your github projects, perfect for when someone leaves your company or team and you don't want them to have access to your projects anymore.
 
 == Note on Patches/Pull Requests
  
