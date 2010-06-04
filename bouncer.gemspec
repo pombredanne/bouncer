@@ -24,7 +24,10 @@ Gem::Specification.new do |s|
      "LICENSE",
      "README.rdoc",
      "Rakefile",
+     "bin/bouncer",
+     "bouncer.gemspec",
      "lib/bouncer.rb",
+     "lib/bouncer/version.rb",
      "test/helper.rb",
      "test/test_bouncer.rb"
   ]
