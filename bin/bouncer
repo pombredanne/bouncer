@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'bouncer'
+require 'lib/bouncer/version.rb'
+
+options = Hash.new
+
+help = OptionParser.new do |opts|
+  opts.banner = "Usage: bouncer [options]"
+  opts.on('-v', '--version') { puts "Bouncer v#{Bouncer::VERSION}"; exit(0) }
+  opts.on('-c', '--collaborator [github user name]', 'Example: dhh') do |collaborator|
+    options[:collaborator] = collaborator if collaborator
+  end
+  opts.on('-a', '--account [github account]', 'Example: rails') do |account| 
+    options[:account] = account if account
+  end
+  opts.on('-t', '--token [github api token]', 'Example: 0335sdfsdb171145fgd4ec04f') do |token|
+    options[:token] = token if token
+  end
+end
+
+help.parse!
+
+if options.empty?
+  puts help.to_s
+else
+  Bouncer.remove_collaborator(options)
+end

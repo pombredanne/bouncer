@@ -1,6 +1,11 @@
-= bouncer
+= Bouncer
 
 Bouncer makes it easy to remove a collabroator's access to all of your github projects, perfect for when someone leaves your company or team and you don't want them to have access to your projects anymore.
+
+== Usage
+
+    sudo gem install bouncer
+    bouncer -c dhh -a rails -t 0335sdfsdb171145fgd4ec04f
 
 == Note on Patches/Pull Requests
  
