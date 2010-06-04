@@ -13,6 +13,8 @@ begin
     gem.email = "andrewnez@gmail.com"
     gem.homepage = "http://github.com/andrew/bouncer"
     gem.authors = ["Andrew Nesbitt"]
+    gem.add_dependency("json", '>= 1.4.3')
+    gem.add_dependency("curb", '>= 0.7.3')
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
