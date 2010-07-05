@@ -2,7 +2,6 @@
 
 require 'optparse'
 require 'bouncer'
-require 'lib/bouncer/version.rb'
 
 options = Hash.new
 
