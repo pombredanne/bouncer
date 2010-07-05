@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Andrew Nesbitt"]
-  s.date = %q{2010-06-04}
+  s.date = %q{2010-07-05}
   s.default_executable = %q{bouncer}
   s.description = %q{Bouncer makes it easy to remove a collabroator's access to all of your github projects, perfect for when someone leaves your company or team and you don't want them to have access to your projects anymore.}
   s.email = %q{andrewnez@gmail.com}
