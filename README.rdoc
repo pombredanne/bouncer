@@ -19,4 +19,4 @@ Bouncer makes it easy to remove a collabroator's access to all of your github pr
 
 == Copyright
 
-Copyright (c) 2010 Andrew Nesbitt. See LICENSE for details.
+Copyright (c) 2013 Andrew Nesbitt. See LICENSE for details.
